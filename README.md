@@ -24,11 +24,11 @@ Issues would have labels like
   * Medium: about a week or two
   * High: about a month or more
 
-## Project structure
+## Project structure (see [example](https://github.com/makortel/test-project/projects))
 
 I'm thinking about a "Main view" board, and then a board for each quarter (somewhat following the [example from DMWM](https://github.com/dmwm/WMCore/projects/11))
 
-### Main view
+### Main view (see [example](https://github.com/makortel/test-project/projects/1))
 
 Main view would deal with topic issues, and would have the following columns
 * Pool of ideas: topic issues whose priority has not been decided yet (ideally only new issues)
@@ -39,16 +39,23 @@ Main view would deal with topic issues, and would have the following columns
 * Column for each quarter (add new column when starting a quarter)
 * Done: work done (mostly a automated sink for closed issues)
 
-### Quarterly project board
+### Quarterly project board (see [example](https://github.com/makortel/test-project/projects/2))
 
 Quarterly project board would deal with work issues that are agreed goals for the quarter, and would have the following columns
 * To Do: work issues agreed to be addressed on that quarter
+* Paused: work started, but paused for longer time for some reason (would be good to write down the reason in the issue)
 * In progress: issues being actively worked on
 * In Review: PR of the work issue is in review
   * I'm not fully sure of the usefulness, but sometimes the review can take a lot of time
 * Done: work done
 
 ## Workflow
+
+### Meeting
+
+I suppose the overall workflow to function we'd need a weekly (or bi-weekly) meeting. I'd aim for a short meeting, primarily intended to check that everything is progressing, bring up concerns, discuss if priorities need to be adjusted, discuss if any new issues need to be addressed in the current quarter. Essentially an opportunity to adjust the plan of the quarter if needed.
+
+The last meeting of a quarter would be a bigger one with planning of work for the next quarter.
 
 ### Start working on an issue
 
