@@ -56,7 +56,7 @@ Quarterly project board would deal with work issues that are agreed goals for th
    * They assign themself to the issue, and move it from "To Do" column to "In progress" column in the project board of the current quarter
 2. Developer completes a work issue that leads to a Pull Request
    * Developer uses one of the [keywords](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) in the PR description for that PR to close all relevant issues
-     * For example, "Resolves #32597. Resolves makortel/test-project#10."
+     * For example, `Resolves #32597. Resolves makortel/test-project#10.`
      * This works also across repositories (tested).
    * Developer moves the work issue from "In progress" column to "In review" column in the quarterly project board.
 3. Developer goes to look for next work item in the "To Do" column of the quarterly project board
