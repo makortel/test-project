@@ -124,7 +124,3 @@ In principle it would be nice to to account them.
 ### How to deal with dependencies between issues?
 
 Add links in both directions? And keep dependent issues in "Pool of ideas" (in "Main view" for feature issues) or "To Do" (in quarter board for task issues)
-
-### What does "one week of work" mean for people with different FTE fractions?
-
-### Is it more important for a "task issue" to correspond about one week of work, or correspond to a Pull Request to [cms-sw/cmssw](https://github.com/cms-sw/cmssw)?
