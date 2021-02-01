@@ -52,7 +52,18 @@ Quarterly project board would deal with task issues that are agreed goals for th
   * I'm not fully sure of the usefulness, but sometimes the review can take a lot of time
 * Done: work done
 
+## Repository
+
+Even though using a project board directly in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/) would minimize duplication of issues, I'm thinking a separate repository (e.g. `cms-sw/cms-framework`) instead because
+* I imagine we want different privileges for users for this repo
+* I want to be able to assign people directly to issues without going through cms-bot
+* I want to use different set of labels than in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/)
+* I'm concerned that "polluting" [cms-sw/cmssw](https://github.com/cms-sw/cmssw/issues) with our task issues would create confusion there
+
+
 ## Workflow
+
+This section only sketches a few development use cases.
 
 ### Meeting
 
@@ -81,11 +92,28 @@ L2 decides if the issue needs an immediate action, or if an action can be discus
 Upon decision, the "feature issue" is moved to the corresponding priority column and assigned the corresponding label.
 If the issue needs to be worked on the current quarter, it will be moved to the column of the current quarter in the "Main view" board, and also added to the "To Do" column of the quarterly board.
 
+## How to get started?
+
+I would not implement everything sketched here immediately, but start gradually and adjust the plan based on experience (including "trash the plan" option).
+
+In the first step I'd
+* Create the new repo `cms-sw/cms-framework` and the project boards described above
+* Add feature issues for all developments currently in development or in review, and for the near-term plans
+* Add task issues and GitHub milestones for the developments currently in development or in review
+* We agree on a weekly meeting time
+* We try to out using these issues to track our progress for about a month, then evaluate the experience
+
+The following step could include
+* Adding more feature issues for the future work
+* Starting to work on automation with cms-bot
+
 ## Open questions
 
 ### How to deal with "quick fixes"?
 
 Going through the "create issue in [cms-sw/cmssw](https://github.com/cms-sw/cmssw)", "create issue here manually or automatically", "add issue card to relevant column in quarterly project board" sounds rather heavy.
+
+One possibility would be to utilize cms-bot, minimally with the `issue framework` command mentioned above, which would require a bit manualy work to move to the right quarterly board and column in there. I'm not sure if trying to automate the "board + column" part would make the process easier or more confusing.
 
 ### How to deal with design effort?
 
