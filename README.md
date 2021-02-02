@@ -23,17 +23,17 @@ These issues should have no technical discussion (that should go into issues in 
 Instead, they would have mostly links to other issues (especially those in [cms-sw/cmssw](https://github.com/cms-sw/cmssw)), and could have "managerial discussion" (if such is needed).
 
 Issues would have labels like
-* Priority: "Low priority", "Medium priority", "High priority" (corresponding to the columns in "Main view", see below)
+* Priority: "Low priority", "Medium priority", "High priority" (corresponding to the columns in "Feature view", see below)
 * Kind: "New feature", "Bug fix", "User request"
   * Probably useful only for feature issues, if even for those?
 
 ## Project structure (see [example](https://github.com/makortel/test-project/projects))
 
-I'm thinking about a "Main view" board, and then a board for each quarter (somewhat following the [example from DMWM](https://github.com/dmwm/WMCore/projects/11))
+I'm thinking about a "Feature view" board, and then a board for each quarter (somewhat following the [example from DMWM](https://github.com/dmwm/WMCore/projects/11))
 
-### Main view (see [example](https://github.com/makortel/test-project/projects/1))
+### Feature view (see [example](https://github.com/makortel/test-project/projects/1))
 
-Main view would deal with feature issues, and would have the following columns
+Feature view would deal with feature issues, and would have the following columns
 * Pool of ideas: feature issues whose priority has not been decided yet (ideally only new issues)
 * Three columns for features that have been decided to work on some time in the future
   * Low priority: minor performance or productivity improvement (in near future, or becomes "medium" in distant future)
@@ -87,10 +87,10 @@ The last meeting of a quarter would be a bigger one with planning of work for th
 
 We would need a corresponding "feature issue" here, that has a link to the original issue.
 That could be created manually, but I'm wishing for some automation.
-I can think of enhancing cms-bot with e.g. with a new command along `issue framework` to cms-bot that would create a new "feature issue" with a link to the original issue, and add it to the "Pool of ideas" column of "Main view" board.
+I can think of enhancing cms-bot with e.g. with a new command along `issue framework` to cms-bot that would create a new "feature issue" with a link to the original issue, and add it to the "Pool of ideas" column of "Feature view" board.
 L2 decides if the issue needs an immediate action, or if an action can be discussed in the next "weekly" meeting.
 Upon decision, the "feature issue" is moved to the corresponding priority column and assigned the corresponding label.
-If the issue needs to be worked on the current quarter, it will be moved to the column of the current quarter in the "Main view" board, and also added to the "To Do" column of the quarterly board.
+If the issue needs to be worked on the current quarter, it will be moved to the column of the current quarter in the "Feature view" board, and also added to the "To Do" column of the quarterly board.
 
 ## How to get started?
 
@@ -117,10 +117,16 @@ One possibility would be to utilize cms-bot, minimally with the `issue framework
 
 ### How to deal with design effort?
 
+### How to deal with overarching themes?
+
+I'm thinking things like "inspect IBs" or "improve threading efficiency". Or are these clear-enough that they don't need to be mentioned explicitly?
+
+One option would be to create milestones for them, and add feature issues to those, but I'm concerned that using milestones for two functions would be confusing (using issues for two concepts can already be confusing).
+
 ### How to deal with bug fixes done outside of framework?
 
 In principle it would be nice to to account them.
 
 ### How to deal with dependencies between issues?
 
-Add links in both directions? And keep dependent issues in "Pool of ideas" (in "Main view" for feature issues) or "To Do" (in quarter board for task issues)
+Add links in both directions? And keep dependent issues in "Pool of ideas" (in "Feature view" for feature issues) or "To Do" (in quarter board for task issues)
