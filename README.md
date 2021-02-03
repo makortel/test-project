@@ -115,6 +115,8 @@ Going through the "create issue in [cms-sw/cmssw](https://github.com/cms-sw/cmss
 
 One possibility would be to utilize cms-bot, minimally with the `issue framework` command mentioned above, which would require a bit manualy work to move to the right quarterly board and column in there. I'm not sure if trying to automate the "board + column" part would make the process easier or more confusing.
 
+Or maybe we should just leave them out?
+
 ### How to deal with design effort?
 
 ### How to deal with overarching themes?
@@ -125,7 +127,7 @@ One option would be to create milestones for them, and add feature issues to tho
 
 ### How to deal with bug fixes done outside of framework?
 
-In principle it would be nice to to account them.
+In principle it would be nice to to account them. Or not really necessary?
 
 ### How to deal with dependencies between issues?
 
