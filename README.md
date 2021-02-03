@@ -54,7 +54,7 @@ Quarterly project board would deal with task issues that are agreed goals for th
 
 ## Repository
 
-Even though using a project board directly in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/) would minimize duplication of issues, I'm thinking a separate repository (e.g. `cms-sw/cms-framework`) instead because
+Even though using a project board directly in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/) would minimize duplication of issues, I'm thinking a separate repository (e.g. something along `cms-sw/cms-framework`, `cms-sw/framework`, `cms-projects/framework`) instead because
 * I imagine we want different privileges for users for this repo
 * I want to be able to assign people directly to issues without going through cms-bot
 * I want to use different set of labels than in [cms-sw/cmssw](https://github.com/cms-sw/cmssw/)
