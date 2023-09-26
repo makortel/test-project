@@ -132,3 +132,4 @@ In principle it would be nice to to account them. Or not really necessary?
 ### How to deal with dependencies between issues?
 
 Add links in both directions? And keep dependent issues in "Pool of ideas" (in "Feature view" for feature issues) or "To Do" (in quarter board for task issues)
+
