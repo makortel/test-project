@@ -10,3 +10,11 @@ body:
     placeholder: |
       For PRs in cms-sw organization, use \"resolves <link to task issue>\" in the PR description,.
       For other results that can be linked to, add link to this description when done.
+- type: dropdown
+  attributes:
+    label: "Test dropdown"
+    description: "Test description"
+    options:
+      - "One"
+      - "Two"
+    default: 0
