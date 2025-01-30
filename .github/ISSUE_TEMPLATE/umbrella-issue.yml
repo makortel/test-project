@@ -6,9 +6,7 @@ labels: ["Umbrella"]
 body:
 - type: markdown
   attributes: 
-    value: |
-      * After creating the Umbrella issue
-        * Create Activities as sub-issues
+    value: "After creating the Umbrella issue, create Activities as sub-issues"
 - type: textarea
   attributes:
     label: "Description"
