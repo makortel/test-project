@@ -5,4 +5,6 @@ projects: ["makortel/2"]
 body:
 - type: textarea
   attributes:
-    label: "Foo"
+    label: "Description"
+    description: "Optional description of the task"
+    placeholder: "E.g. a link to a PR"
