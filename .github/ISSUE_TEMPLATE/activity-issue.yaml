@@ -1,0 +1,15 @@
+name: "Activity issue"
+description: >
+  Create an issue for a Task.
+  Tasks are the lowest level in the hierarchy.
+  Task is either a sub-issue of an Activity, or the same issue as the Activity if there is only a single Task.
+labels: ["Activity"]
+projects: ["makortel/2"]
+body:
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the Activity (can be empty)"
+    placeholder: >
+      Write here something about the activity if it is not clear from the title.
+      If there are relevant issue(s) elsewhere (e.g. in cms-sw/cmssw), link them here.
