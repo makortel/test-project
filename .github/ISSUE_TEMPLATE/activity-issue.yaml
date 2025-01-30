@@ -1,8 +1,8 @@
 name: "Activity issue"
 description: >
   Create an issue for a Activity.
-  An activity is composed from one or more Task issues.
-  An activity can optionally be part of an Umbrella.
+  An Activity has well-defined beginning and end, and is composed from one or more Task issues.
+  An Activity can optionally be part of an Umbrella.
 labels: ["Activity"]
 projects: ["makortel/2"]
 body:
