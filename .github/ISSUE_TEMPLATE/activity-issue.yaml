@@ -9,6 +9,8 @@ body:
 - type: markdown
   attributes: 
     value: |
+      If you are going to work on the Activity, assign it to yourself
+      
       After creating the Activity issue
       * Create Tasks as sub-issues
         * Or assign also `Task` label for this issue if the Activity contains only one Task
