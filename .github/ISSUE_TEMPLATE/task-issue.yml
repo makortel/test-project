@@ -1,5 +1,8 @@
 name: "Task issue"
-description: "Create a Task issue"
+description: >
+  Create an issue for a Task.
+  Tasks are the lowest level in the hierarchy.
+  Task is either a sub-issue of an Activity, or the same issue as the Activity if there is only a single Task.
 labels: ["Task"]
 projects: ["makortel/2"]
 body:
@@ -10,11 +13,3 @@ body:
     placeholder: |
       For PRs in cms-sw organization, use \"resolves <link to task issue>\" in the PR description,.
       For other results that can be linked to, add link to this description when done.
-- type: dropdown
-  attributes:
-    label: "Test dropdown"
-    description: "Test description"
-    options:
-      - "One"
-      - "Two"
-    default: 0
