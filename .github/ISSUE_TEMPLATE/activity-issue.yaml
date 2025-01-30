@@ -1,11 +1,21 @@
 name: "Activity issue"
 description: >
-  Create an issue for a Task.
-  Tasks are the lowest level in the hierarchy.
-  Task is either a sub-issue of an Activity, or the same issue as the Activity if there is only a single Task.
+  Create an issue for a Activity.
+  An activity is composed from one or more Task issues.
+  An activity can optionally be part of an Umbrella.
 labels: ["Activity"]
 projects: ["makortel/2"]
 body:
+- type: markdown
+  attributes: 
+    value: |
+      After creating the Activity issues
+      * Create Tasks as sub-issues
+        * Or assign also `Task` label for this issue if the Activity contains only one Task
+      * If you start to work on the Activity immediately, expand the "Framework Activities" project and
+        * Set `Status` to `In progress`
+        * Assign `Quarter` as current quarter
+        * Set `Began` to the date you started working on the Activity
 - type: textarea
   attributes:
     label: "Description"
