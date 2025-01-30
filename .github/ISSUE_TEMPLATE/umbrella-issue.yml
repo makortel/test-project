@@ -1,0 +1,18 @@
+name: "Umbrella issue"
+description: >
+  Create an issue for an Umbrella.
+  An Umbrella is loose collection of related Activities.
+labels: ["Umbrella"]
+body:
+- type: markdown
+  attributes: 
+    value: |
+      * After creating the Umbrella issue
+        * Create Activities as sub-issues
+- type: textarea
+  attributes:
+    label: "Description"
+    description: "Description of the Umbrella (can be empty)"
+    placeholder: >
+      Write here something about the umbrella if it is not clear from the title.
+      If there are relevant issue(s) elsewhere (e.g. in cms-sw/cmssw), link them here.
