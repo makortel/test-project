@@ -1,5 +1,5 @@
-name: Task issue
-description: Create a Task issue
+name: "Task issue"
+description: "Create a Task issue"
 title: ""
 labels: ["Task"]
 projects: ["makortel/2"]
