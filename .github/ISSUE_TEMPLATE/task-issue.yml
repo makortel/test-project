@@ -3,3 +3,7 @@ description: "Create a Task issue"
 title: "Title"
 labels: ["Task"]
 projects: ["makortel/2"]
+body:
+- type: textarea
+  attributes:
+    label: "Foo"
